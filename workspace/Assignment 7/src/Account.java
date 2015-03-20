@@ -8,7 +8,7 @@ public class Account {
 	Date dateCreated = new Date();
 
 	// *Constructor*//
-	public void Account() 
+	public Account() 
 	{
 	
 	}
@@ -46,7 +46,7 @@ public class Account {
 		return dateCreated;
 	}
 
-	// *New Method*//
+	// * Method*
 	public void Withdraw(double withdraw) 
 	{
 		balance = balance - withdraw;
